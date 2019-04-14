@@ -9,7 +9,6 @@
 <body>
 <h1>Welcome</h1>
 <p><a href="<s:url action='message'/>">Hello World</a></p>
-
 <s:form action="inscription">
     <s:textfield name="user.nom" label="Nom" requiredLabel="true"/>
     <s:textfield name="user.email" label="Email" requiredLabel="true"/>

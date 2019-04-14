@@ -19,10 +19,10 @@
 
         <action name="inscription"
                 class="com.test.struts.action.InscriptionAction"
-                method = "validate">
-            <result name="input">WEB-INF/inscription/form.jsp</result>
+                method = "addUser">
+            <result name="input">WEB-INF/inscription/index.jsp</result>
             <result name="success" type="redirectAction">
-            <param name="actionName">index</param>
+            <param name="actionName">message</param>
             </result>
         </action>
     </package>
